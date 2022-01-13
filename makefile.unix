@@ -1,0 +1,3 @@
+main:
+	g++ -Wall -fopenmp -std=c++2a gcc_main.cpp -o gcc_main
+
