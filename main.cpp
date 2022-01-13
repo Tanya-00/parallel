@@ -285,10 +285,10 @@ void show_experiment_result_Fib(F_t f) {
 int main() {
     experiment_result p;
 
-    printf("Fibonacci omp\n");
-    show_experiment_result_Fib(Fibonacci_omp);
-    printf("Fibonacci schedule omp\n");
-    show_experiment_result_Fib(Fibonacci_sch_omp);
+//    printf("Fibonacci omp\n");
+//    show_experiment_result_Fib(Fibonacci_omp);
+//    printf("Fibonacci schedule omp\n");
+//    show_experiment_result_Fib(Fibonacci_sch_omp);
     printf("Fibonacci\n");
     show_experiment_result_Fib(Fibonacci);
 
